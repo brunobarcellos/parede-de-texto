@@ -1,0 +1,24 @@
+site_name: Parede de Texto
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: purple
+      toggle:
+        icon: material/weather-night
+        name: Modo noturno
+    - scheme: slate
+      primary: deep purple
+      toggle:
+        icon: material/weather-sunny
+        name: Modo claro
+markdown_extensions:      # Extensões para dar suporte a ...  
+  - pymdownx.emoji        # ... emojis
+  - pymdownx.tasklist     # ... lista de tarefas
+  - pymdownx.mark         # ... marcações
+  - pymdownx.tilde        # ... efeito tachado
+  - pymdownx.highlight    # ... código fonte com marcação
+  - pymdownx.superfences  # ...
+
+plugins:
+  - markmap

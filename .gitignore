@@ -1,3 +1,15 @@
+# Reumos de estudos nada maduros
+/parede_de_texto/docs/rascunhos
+
+# Arquivos temporários do Mac
+.trash/
+.DS_Store
+
+# Excluindo diretório de configuração do Vs Code
+.vscode/
+
+# ABAIXO TEMPLATE DE .gitignore PARA PYTHON
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -118,7 +130,7 @@ venv.bak/
 .ropeproject
 
 # mkdocs documentation
-/site
+site/
 
 # mypy
 .mypy_cache/
